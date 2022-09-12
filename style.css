@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#2C3E50;
+    font: bold;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-start-bootstrap{
+   padding: 30px 100px;
+    
+}
+
+.header-menu{
+    font-weight: bold;
+ padding: 30px 100px;    
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-menu>li{
+    
+     margin-right: 20px;
+     cursor: pointer;
+   }
+
+.hero-sec{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ABC9C;
+}
+
+.container{
+    padding: 30px 0;
+}
+.font-color{
+color: white;
+}
+.position{
+    display: flex;
+    justify-content: center;
+
+}
+.hero-head{
+font-size: 50px;
+}
+
+.portfolio{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.port-head{
+    font:bold ;
+    color:#2C3E50 ;
+    font-size: 50px;
+    padding: 50px 0;
+}
+.port-img{
+    padding-top: 30px;
+   margin-right: 50px;
+}
+.portfolio-card{
+    padding-bottom: 50px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     flex-wrap: wrap;
+ }
+ .about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ABC9C;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+}
+
+.para-dim{
+    font: regular;
+    font-size: 18px;
+    color: white ;
+   width:450px; 
+   margin-right: 10px;
+   padding: 30px;
+}
+
+.button{
+    width: 50px;
+    height: 30px;
+}
+
+.down-btn{
+    display: flex;
+    justify-content:center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: #1ABC9C;
+    margin: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.down-btn>i{
+   padding-right: 5px;
+}
+
+.contact-sec{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.container-form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
